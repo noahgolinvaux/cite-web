@@ -1,0 +1,84 @@
+h1 {text-align: center;
+color:white;
+}
+body{background-color:#2EACEC;}
+
+	p{text-align:center;
+	color:white; 
+	font-family:Courier New;}
+	/*couleur blanche, centrer,texte courier new*/
+	
+h2{text-align:center;
+color:white; 
+text-align:center;
+font-family:arial;}
+
+.1{border-collapse:collapse;}
+/*bordure jointe*/
+
+table{border-color:white;
+text-align:center;
+color:white;
+border: solid;}
+/*bordure en une ligne*/
+
+nav{display:inline-block;
+list-style-type:none;
+color:#2EACEC;
+background-color:white;
+text-decoration:none;}
+/*pas de point pour les liste*/
+
+li{color:white; 
+	font-family:Courier New;
+	display:inline-block;
+list-style-type:none;
+text-align:center;}
+/*liste aligner*/
+
+nav:hover{background-color: #2EACEC;
+color: white;
+cursor: pointer;}
+/*changement de curseur*/
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+  }
+  /*position relative, aligner*/
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  /*visible,couleur de font noir,couleur blanche,position absolue,*/
+  
+  .tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  /*margin -5px , border width 5px*/
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+  }
+
